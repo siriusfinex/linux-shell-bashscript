@@ -1,2 +1,2 @@
 # bash-script
-some script for linux shell
+some linux shell script to manager my linux server.
