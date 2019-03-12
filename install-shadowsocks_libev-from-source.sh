@@ -18,7 +18,7 @@ ver=$(wget --no-check-certificate -qO- https://api.github.com/repos/shadowsocks/
 [ -z ${ver} ] && echo "Error: Get shadowsocks-libev latest version failed" && exit 1
 shadowsocks_libev_ver="shadowsocks-libev-$(echo ${ver} | sed -e 's/^[a-zA-Z]//g')"
 download_link="https://github.com/shadowsocks/shadowsocks-libev/releases/download/${ver}/${shadowsocks_libev_ver}.tar.gz"
-download "${shadowsocks_libev_ver}.tar.gz" "${download_link}"
+wget -qO "${shadowsocks_libev_ver}.tar.gz" "${download_link}"
 tar zxf ${shadowsocks_libev_ver}.tar.gz
 mkdir -p ~/build-area/
 cp ./scripts/build_deb.sh ~/build-area/
