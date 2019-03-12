@@ -1,9 +1,9 @@
 #! /bin/bash
-dir=$(/etc/sysctl.d/local.conf)
+dir="/etc/sysctl.d/local.conf"
 if [[ ! -f "$dir" ]]; then
-	rm -rf "$dir"
-else
 	echo "ok"
+else
+	rm -rf "$dir" && echo "delete local.conf file"
 fi
 echo "
 fs.file-max = 51200
