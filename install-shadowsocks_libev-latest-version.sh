@@ -1,5 +1,9 @@
 #! /bin/bash
 #
+#before install shadowsocks-libev
+echo "Before install shadowsocks-libev,you should install following dependencies:"
+echo "run the command 'apt install -y build-essential autoconf libtool libssl-dev gawk debhelper dh-systemd init-system-helpers pkg-config git' to install"
+
 #make git directory
 if [ ! -d "/root/git" ]; then
         mkdir /root/git
@@ -16,10 +20,6 @@ if [ ! -d "/root/build-area" ]; then
 else
         rm -rf /root/build-area
 fi
-
-#install dependencies
-apt install -y build-essential autoconf libtool libssl-dev
-apt install -y gawk debhelper dh-systemd init-system-helpers pkg-config git
 
 #download and install shadowsocks-libev
 cd ~/git/shadowsocks-libev
