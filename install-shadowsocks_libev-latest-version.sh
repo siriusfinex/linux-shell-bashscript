@@ -3,9 +3,8 @@
 #before install shadowsocks-libev
 echo "Before install shadowsocks-libev,you should install following dependencies:"
 echo "run the command 'apt install -y build-essential autoconf libtool libssl-dev gawk debhelper dh-systemd init-system-helpers pkg-config git' to install"
-sh -c 'printf "deb http://deb.debian.org/debian stretch-backports main" > /etc/apt/sources.list.d/stretch-backports.list'
-apt update && apt upgrade -y
-
+apt update && apt upgrade -y; apt install -y curl wget sudo vim 
+sudo sh -c 'printf "deb http://deb.debian.org/debian stretch-backports main" > /etc/apt/sources.list.d/stretch-backports.list'; fi
 #make git directory
 if [ ! -d "/root/git" ]; then
         mkdir /root/git
