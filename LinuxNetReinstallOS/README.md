@@ -1,3 +1,18 @@
++ 申明：
+1. 转载自 [ Linux VPS ] Debian/Ubuntu/CentOS 网络安装/重装系统/纯净安装 一键脚本 (https://moeclub.org/2018/04/03/603)
+1. 转载该文档以及附属脚本目的是作为收藏备用
+
++ 注意:
+```
+1. 全自动安装默认root密码:Vicer,安装完成后请立即更改密码.
+1. 能够全自动重装Debian/Ubuntu/CentOS等系统.
+1. 同时提供dd安装镜像功能,例如: 全自动无救援dd安装windows系统
+1. 全自动安装CentOS时默认提供VNC功能,可使用VNC Viewer查看进度,
+1. VNC端口为1或者5901,可自行尝试连接.(成功后VNC功能会消失.)
+1. 目前CentOS系统只支持任意版本重装为 CentOS 6.x 及以下版本.
+```
+###特别注意: OpenVZ 构架不适用.###
+
 + 依赖包:
 ```
 #二进制文件    Debian/Ubuntu    RedHat/CentOS
