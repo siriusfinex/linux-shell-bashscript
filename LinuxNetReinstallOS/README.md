@@ -4,7 +4,7 @@
 
 + 注意:
 
-1. 全自动安装默认root密码:Vicer,安装完成后请立即更改密码.
+1. 全自动安装Linux系统默认root密码:Vicer,安装完成后请立即更改密码.
 1. 能够全自动重装Debian/Ubuntu/CentOS等系统.
 1. 同时提供dd安装镜像功能,例如: 全自动无救援dd安装windows系统
 1. 全自动安装CentOS时默认提供VNC功能,可使用VNC Viewer查看进度,
@@ -123,7 +123,7 @@ bash InstallNET.sh -c 6.9 -v 64 -a --mirror 'http://mirror.centos.org/centos'
 
 + 一些提示:
 1. 特别注意:  
-萌咖提供的dd安装镜像 远程登陆账号为: Administrator 远程登陆密码为: Vicer 仅修改了主机名,可放心使用.(建议自己制作.) 
+萌咖提供的windows dd安装镜像 远程登陆账号为: Administrator 远程登陆密码为: Vicer 仅修改了主机名,可放心使用.(建议自己制作.) 
 1. 在dd安装系统镜像时:  
 在你的机器上全新安装,如果你有VNC,可以看到全部过程. 在dd安装镜像的过程中,不会走进度条(进度条一直显示为0%).完成后将会自动重启. 分区界面标题一般显示为: "Starting up the partitioner" 使用谷歌网盘中储存的镜像:[ [无限制大小] 获取谷歌网盘文件临时直接下载链接](https://moeclub.org/directlink/)
 1. 在全自动安装CentOS时:  
