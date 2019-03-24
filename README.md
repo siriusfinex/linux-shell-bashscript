@@ -10,7 +10,7 @@ bash <(curl -s -S -L "https://raw.githubusercontent.com/siriusfinex/linux-shell-
 bash <(curl -s -S -L "https://raw.githubusercontent.com/siriusfinex/linux-shell-bashscript/master/kernel-optimize-for-ss.sh")
 ```
 
-# from supervisor to pm2
+# setup-pm2-manager
 ```
 bash <(curl -s -S -L "https://raw.githubusercontent.com/siriusfinex/linux-shell-bashscript/master/setup-pm2-manager.sh")
 ```
