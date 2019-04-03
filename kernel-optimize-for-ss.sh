@@ -31,5 +31,9 @@ net.ipv4.tcp_mem = 25600 51200 102400
 net.ipv4.tcp_rmem = 4096 87380 67108864
 net.ipv4.tcp_wmem = 4096 65536 67108864
 net.ipv4.tcp_mtu_probing = 1" >> /etc/sysctl.conf
+
+echo "* soft nofile 51200
+* hard nofile 51200" >> /etc/security/limits.conf
+ulimit -n 51200 && ulimit -n 51200
 fi
 sysctl -p
