@@ -3,14 +3,14 @@ some linux shell script to manager my linux server.
 
 # For install shadowsocks-libev latest version
 ```
-bash <(curl -s -S -L "https://raw.githubusercontent.com/siriusfinex/linux-shell-bashscript/master/install-shadowsocks_libev-latest-version.sh")
+wget -qO- "https://raw.githubusercontent.com/siriusfinex/linux-shell-bashscript/master/install-shadowsocks_libev-latest-version.sh" | bash
 ```
 # kernel optimize for ss
 ```
-bash <(curl -s -S -L "https://raw.githubusercontent.com/siriusfinex/linux-shell-bashscript/master/kernel-optimize-for-ss.sh")
+wget -qO- "https://raw.githubusercontent.com/siriusfinex/linux-shell-bashscript/master/kernel-optimize-for-ss.sh" | bash
 ```
 
 # setup-pm2-manager
 ```
-bash <(curl -s -S -L "https://raw.githubusercontent.com/siriusfinex/linux-shell-bashscript/master/setup-pm2-manager.sh")
+wget -qO- "https://raw.githubusercontent.com/siriusfinex/linux-shell-bashscript/master/setup-pm2-manager.sh" | bash
 ```
