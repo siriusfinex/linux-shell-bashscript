@@ -13,6 +13,6 @@ if [[ "$ss_key" -eq "1" ]] && [[ "$ss_date" -eq "`date +%Y%m%d`" ]]; then
         cd /root && bash <(curl -s -S -L "https://raw.githubusercontent.com/siriusfinex/linux-shell-bashscript/master/install-shadowsocks_libev-latest-version.sh")
 fi
 
-#Please write a crontab rule to run this shellscript,for example "30 4    * * *   root    ssmgr-ss-autoupgradeclient.sh"
+#Please write a crontab rule to run this shellscript,for example "35 3    * * *   root    ssmgr-ss-autoupgradeclient.sh"
 echo "Please write a crontab rule to run this shellscript,for example:"
-echo "30 4    * * *   root    bash ~/ssmgr-ss-autoupgradeclient.sh"
+echo "35 3    * * *   root    bash ~/ssmgr-ss-autoupgradeclient.sh"
