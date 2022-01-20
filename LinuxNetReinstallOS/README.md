@@ -51,10 +51,21 @@ yum update
 bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -d 8 -v 64 -a
 ```
 
++ 快速使用示例(by siriusfinex):
+```
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/siriusfinex/linux-shell-bashscript/master/LinuxNetReinstallOS/InstallNET.sh') -d 8 -v 64 -a
+```
+
 + 下载及说明:
 ```
 wget --no-check-certificate -qO InstallNET.sh 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh' && chmod a+x InstallNET.sh
 ```
+
++ 下载及说明(by siriusfinex):
+```
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/siriusfinex/linux-shell-bashscript/master/LinuxNetReinstallOS/InstallNET.sh' && chmod a+x InstallNET.sh
+```
+
 ```
 Usage:
         bash InstallNET.sh      -d/--debian [dist-name]
